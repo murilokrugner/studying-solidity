@@ -15,10 +15,10 @@ pragma solidity ^0.8.11;
 contract parametros {
     uint256 numero = 10;
 
-    function qualNumero() external returns (uint256) {
+  /*  function qualNumero() external returns (uint256) {
         return numero;
     }
-
+  */  
     function qualNumeroView() external view returns (uint256) {
         return numero;
     }
